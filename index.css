@@ -43,7 +43,7 @@ body {
 
 .container {
   display: flex;
-  min-height: 100vh; /* vh = viewport hight*/
+  min-height: 50vh; /* vh = viewport hight*/
 }
 
 /*########## Container > Main Content ########## */
