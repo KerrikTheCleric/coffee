@@ -22,6 +22,7 @@ body {
   position: fixed;
   left: 0;
   right: 0;
+  z-index: 999;
 }
 
 .header .topbar {
@@ -49,6 +50,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 50vh; /* vh = viewport hight*/
+  position: relative;
 }
 
 /*########## Container > Main Content ########## */
@@ -56,4 +58,31 @@ body {
 .imageContainer .main-content {
   flex: 5;
   padding: 2rem;
+}
+
+.infoBox{
+  position: absolute;
+  left: 700px;
+}
+
+.infoHeader{
+  font-family: "Spirax", sans-serif;
+  font-size: 100px;
+  color: darkred;
+}
+
+.infoTextRed{
+  color: aliceblue;
+  background-color: rgb(139, 0, 0, 0.7);
+  font-family: "Poiret One", sans-serif;
+  font-size: 30px;
+}
+
+.infoTextBlack{
+  padding: 19px;
+  margin: 0px;
+  color: aliceblue;
+  background-color: rgba(14, 1, 1, 0.7);
+  font-family: "Poiret One", sans-serif;
+  font-size: 30px;
 }
