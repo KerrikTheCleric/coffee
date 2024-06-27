@@ -8,6 +8,7 @@ body {
 .link {
   color: #9ca3a1;
   text-decoration: none;
+  font-size: 40px;
 }
 
 /*########## Header ########## */
@@ -30,7 +31,7 @@ body {
   flex: 5;
   padding-left: 2rem;
   background-color: wh;
-  font-family: "Poiret One", sans-serif;
+  font-family: "Spirax", sans-serif;
 }
 
 .header .topbar .actions {
@@ -44,14 +45,15 @@ body {
 
 /*########## Container ########## */
 
-.container {
+.imageContainer {
   display: flex;
+  flex-direction: column;
   min-height: 50vh; /* vh = viewport hight*/
 }
 
 /*########## Container > Main Content ########## */
 
-.container .main-content {
+.imageContainer .main-content {
   flex: 5;
   padding: 2rem;
 }
