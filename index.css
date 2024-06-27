@@ -5,12 +5,6 @@ body {
   margin: 0;
 }
 
-.link {
-  color: #9ca3a1;
-  text-decoration: none;
-  font-size: 40px;
-}
-
 /*########## Header ########## */
 
 .header {
@@ -31,7 +25,6 @@ body {
   justify-content: center;
   flex: 5;
   padding-left: 2rem;
-  background-color: wh;
   font-family: "Spirax", sans-serif;
 }
 
@@ -42,6 +35,13 @@ body {
 
 .header .topbar .actions button {
   display: flex;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  font-size: 40px;
+  padding-right: 120px;
 }
 
 /*########## Container ########## */
