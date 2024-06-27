@@ -18,12 +18,15 @@ body {
   color: blue;
   display: flex;
   padding: 0.7rem 1rem;
+  position: fixed;
+  left: 0;
+  right: 0;
 }
 
 .header .topbar {
   align-items: center;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex: 5;
   padding-left: 2rem;
   background-color: wh;
