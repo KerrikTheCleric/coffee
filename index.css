@@ -47,10 +47,30 @@ body {
 /*########## Container ########## */
 
 .imageContainer {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  min-height: 50vh; /* vh = viewport hight*/
-  position: relative;
+  gap: 1rem;
+  justify-content: center;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 1rem solid darkred;
+  height: 100vh;
+}
+
+.imageContainer#top{
+  background-image: url(resources/hot.jpg);
+}
+
+.imageContainer#middle{
+  background-image: url(resources/juicy.jpg);
+}
+
+.imageContainer#bottom{
+  background-image: url(resources/cosy.jpg);
+  border-bottom: none;
 }
 
 /*########## Container > Main Content ########## */
@@ -61,7 +81,6 @@ body {
 }
 
 .infoBox{
-  position: absolute;
   left: 510px;
   top: 300px;
   width: 760px;
@@ -96,10 +115,18 @@ body {
 }
 
 .infoTextBlack{
-  padding: 0px;
   margin: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
   color: aliceblue;
   background-color: rgba(14, 1, 1, 0.85);
   font-family: "Poiret One", sans-serif;
   font-size: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.infoTextBlack.topBlackRow{
+  padding-top: 20px;
 }
